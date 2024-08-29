@@ -27,31 +27,26 @@ figure {
     left: 50%;
     transform: translate(-50%, 0);
 }
-// @media (max-width: 768px) {
-//     .information__headline {
-//         width: 40%;
-//     }
-// }
 .information__table {
     position: absolute;
     color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     top: 30%;
     transform: translate(-50%, -50%);
     left: 50%;
     font-size: 1.5rem;
     width: 70%;
-    background: rgba(33, 37, 41, 0.65);
+    background: rgb(7 9 10 / 88%);
     border-radius: 16px;
     display: flex;
     justify-content: center;
-    line-height: 2.5em;
-    /* margin-top: 100px; */
-    font-size: clamp(0.75rem, 2vw, 2rem);
+    line-height: 2em;
+    font-size: clamp(0.75rem, 2vw, 1.5rem);
+    padding: 20px;
 }
 @media (max-width: 1023px) {
     .information__table {
         width: 90%;
+        padding: 10px;
     }
 }
 .information__table-item a {
@@ -60,16 +55,6 @@ figure {
 .information__table-item a:hover {
     color: #0467c4;
 }
-// .information__wrapper {
-//     display: flex;
-//     flex-direction: column;
-//     position: absolute;
-//     top: 20%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-//     gap: 30px;
-//     width: 100%;
-// }
 .map > iframe {
     height: 40%;
     width: 60%;
@@ -85,15 +70,6 @@ figure {
         top: 65%;
     }
 }
-// @media (max-width: 768px) {
-//     .map > iframe {
-//         height: 200px;
-//         width: 90%;
-//         position: absolute;
-//         top: 220px;
-//         left: 50%;
-//     }
-// }
 .map-information {
     color: #fff;
     font-size: clamp(1.2rem, 3vw, 2rem);
@@ -104,7 +80,6 @@ figure {
     background: rgba(33, 37, 41, 0.65);
     width: 20%;
     height: 6vh;
-    /* text-align: center; */
     align-items: center;
     display: flex;
     justify-content: center;
@@ -133,10 +108,3 @@ figure {
         object-fit: cover;
     }
 }
-
-// @media (max-width: 768px) {
-//     .map-information {
-//         position: absolute;
-//         top: 180px;
-//     }
-// }
