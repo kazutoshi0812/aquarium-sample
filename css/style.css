@@ -739,6 +739,7 @@ figure {
 .map-information:hover {
   background-color: #fff;
   color: #0467c4;
+  transition: 0.6s;
 }
 
 .information__img {
