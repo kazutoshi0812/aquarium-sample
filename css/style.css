@@ -456,7 +456,7 @@ main {
 }
 .gallery__headline {
   color: white;
-  font-size: clamp(1.5rem, 3vw, 3rem);
+  font-size: clamp(1rem, 3.5vw, 2.5rem);
   letter-spacing: 0.6rem;
   height: 15vh;
   text-align: center;
@@ -477,9 +477,8 @@ main {
 
 @media (max-width: 768px) {
   .gallery__headline {
-    font-size: clamp(1.2rem, 4vw, 2.5rem);
-    height: 10vh;
-    width: 80%;
+    height: 12vh;
+    width: 70%;
     margin: 10px auto;
   }
 }
