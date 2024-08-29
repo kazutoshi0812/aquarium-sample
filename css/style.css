@@ -158,7 +158,8 @@ main {
   border-bottom: 2px solid #2eaafd;
   color: #2eaafd;
   background-color: #fff;
-  transition: 0.3s;
+  transition: 0.6s;
+  border-radius: 10px;
 }
 
 .header__nav-list.open {
